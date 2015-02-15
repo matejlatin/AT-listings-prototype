@@ -1,0 +1,17 @@
+body, html {
+	color: $colorMedium;
+	font: $typeDefault $fontBody;
+
+	a {
+		color: $linkNormal;
+		text-decoration: underline;
+	}
+
+	a:active {
+		color: $linkActive;
+	}
+
+	a:visited {
+		color: $linkVisited;
+	}
+}
