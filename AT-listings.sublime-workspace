@@ -1,0 +1,366 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 2406,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "post",
+		"selected_items":
+		[
+			[
+				"post",
+				"Run PostCSS Sorting"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"setti",
+				"Preferences: Settings - User"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"jque",
+				"Snippet: jquery"
+			],
+			[
+				"pull",
+				"Package Syncing: Pull Settings"
+			],
+			[
+				"sync",
+				"Package Syncing: Define Sync Folder"
+			]
+		],
+		"width": 493.0
+	},
+	"console":
+	{
+		"height": 265.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/matej.latin/Projects/Search/Listings/listings-prototype"
+	],
+	"file_history":
+	[
+		"/Users/matej.latin/Personal/Gutenberg/index.html",
+		"/Users/matej.latin/Personal/Gutenberg/src/style/modules/_text.scss",
+		"/Users/matej.latin/Personal/Gutenberg/README.md",
+		"/Users/matej.latin/Personal/Gutenberg/Gruntfile.js",
+		"/Users/matej.latin/Library/Application Support/Sublime Text 3/Packages/PostCSS Sorting/PostCSSSorting.sublime-settings",
+		"/Users/matej.latin/Personal/Gutenberg/src/style/mixins/_font-size.scss",
+		"/Users/matej.latin/Personal/Gutenberg/src/style/helpers/_grid.scss",
+		"/Users/matej.latin/Personal/Gutenberg/src/style/_gutenberg-config.scss",
+		"/Users/matej.latin/Personal/Gutenberg/src/style/layout/_aside.scss",
+		"/Users/matej.latin/Personal/Gutenberg/src/style/gutenberg.scss",
+		"/Users/matej.latin/Personal/Gutenberg/package.json",
+		"/Users/matej.latin/Library/Application Support/Sublime Text 3/Packages/User/PostCSSSorting.sublime-settings",
+		"/Users/matej.latin/Personal/Gutenberg/src/style/mixins/_line-height.scss",
+		"/Users/matej.latin/Personal/Gutenberg/src/style/mixins/_margin.scss",
+		"/Users/matej.latin/Personal/Gutenberg/src/style/mixins/_padding.scss",
+		"/Users/matej.latin/Personal/Gutenberg/src/style/modules/_figure.scss",
+		"/Users/matej.latin/Personal/Gutenberg/src/style/helpers/_alignment.scss",
+		"/Users/matej.latin/Personal/Gutenberg/src/style/gutenberg.css",
+		"/Users/matej.latin/Desktop/AT random ideas & notes",
+		"/Users/matej.latin/Desktop/22.9. - Testing notes",
+		"/Users/matej.latin/Desktop/Testing Notes",
+		"/Users/matej.latin/Projects/Find a rated dealer/Find a Car Dealer case study",
+		"/Users/matej.latin/Downloads/icon - dealer (1).svg",
+		"/Users/matej.latin/Desktop/AT random ideas",
+		"/Users/matej.latin/Library/Application Support/Sublime Text 3/Packages/User/Package Syncing.sublime-settings",
+		"/Users/matej.latin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/matej.latin/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/matej.latin/Library/Application Support/Sublime Text 3/Packages/Package Syncing/Package Syncing.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"/Users/matej.latin/Personal/Gutenberg/",
+			"/Users/matej.latin/Personal/Gutenberg/src/style"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"'",
+			"toggleWrapper",
+			"float",
+			"floatLeft"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								412,
+								418
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "AT-listings.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gruntf",
+				"Gruntfile.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"font-se",
+				"src/style/mixins/_font-size.scss"
+			],
+			[
+				"line",
+				"src/style/mixins/_line-height.scss"
+			],
+			[
+				"paddin",
+				"src/style/mixins/_padding.scss"
+			],
+			[
+				"margin",
+				"src/style/mixins/_margin.scss"
+			],
+			[
+				"aside",
+				"src/style/layout/_aside.scss"
+			],
+			[
+				"grid",
+				"src/style/helpers/_grid.scss"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"alignmen",
+				"src/style/helpers/_alignment.scss"
+			],
+			[
+				"gutenber",
+				"src/style/gutenberg.scss"
+			],
+			[
+				"gutenberg",
+				"src/style/gutenberg.scss"
+			],
+			[
+				"packag",
+				"package.json"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"gruntfile",
+				"Gruntfile.js"
+			],
+			[
+				"text",
+				"src/style/modules/_text.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Personal/Gutenberg/gutenberg.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 231.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
