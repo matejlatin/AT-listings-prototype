@@ -1,64 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-	<title>Title</title>
-	<link rel="stylesheet" href="src/combined.min.css">
-	<script src="src/combined.min.js"></script>
-	<script type="text/javascript" src="//use.typekit.net/odo6ird.js"></script>
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
-	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="/android-chrome-manifest.json">
-	<meta name="msapplication-TileColor" content="#e74444">
-	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-	<meta property="og:title" content="Title">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://website.com/">
-	<meta property="og:image" content="http://website.com/image.jpg" />
-	<meta property="og:description" content="Description" />
-	<meta name="twitter:creator" content="@twiteruser">
-	<meta name="twitter:site" content="@twitteruser2">
-	<meta name="twitter:description" content="Twitter description." />
-	<meta name="twitter:url" content="http://website.com/" />
-	<meta name="twitter:domain" content="website.com" />
-	<meta name="twitter:image:src" content="http://website.com/image.jpg" />
-	<meta name="twitter:card" content="summary_large_image">
-	<style>
-		.wf-loading p, .wf-loading h1, .wf-loading h2, .wf-loading h3 {
-		  visibility: hidden;
-		}
-
-		.wf-active p, .wf-active h1, .wf-active h2, .wf-active h3 {
-		  visibility: visible;
-		}
-	</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>Title</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="assets/combined.min.css">
+  <script src="assets/combined.min.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/odo6ird.js"></script>
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/android-chrome-manifest.json">
+  <meta name="msapplication-TileColor" content="#e74444">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Title">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://website.com/">
+  <meta property="og:image" content="http://website.com/image.jpg" />
+  <meta property="og:description" content="Description" />
+  <meta name="twitter:creator" content="@twiteruser">
+  <meta name="twitter:site" content="@twitteruser2">
+  <meta name="twitter:description" content="Twitter description." />
+  <meta name="twitter:url" content="http://website.com/" />
+  <meta name="twitter:domain" content="website.com" />
+  <meta name="twitter:image:src" content="http://website.com/image.jpg" />
+  <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-	<article>
-	</article>
-	<footer>
-		<small>
-			&copy; website.com, copyright 2015</a>
-		</small>
-	</footer>
-	<script>
-		$(".lazy").unveil(10, function() {
-			$(this).addClass('animated fadeIn');
-		});
-	</script>
+  <div class="topnav">
+    <div class="icn-menu">
+      <img src="assets/images/icn-menu.png" alt="menu" width="30">
+    </div>
+    <div class="logo">
+      <img src="assets/images/autotrader_logo.png" alt="AutoTrader" width="140">
+    </div>
+    <div class="icn-search">
+      <img src="assets/images/icn-search.png" alt="search" width="30">
+    </div>
+  </div>
+  <h1>Refining Ford Focus</h1>
+  <form>
+    <div data-role="rangeslider">
+      <label for="range-1a">Price:</label>
+      <input type="range" name="range-1a" id="range-1a" min="0" max="14000" value="100" step="500" data-popup-enabled="true">
+      <label for="range-1b">Price:</label>
+      <input type="range" name="range-1b" id="range-1b" min="0" max="14000" value="7000" step="500" data-popup-enabled="true">
+    </div>
+    <label for="slider-2">Distance (miles):</label>
+    <input type="range" name="slider-2" id="slider-2" data-highlight="true" min="0" max="200" value="100" step="5" data-popup-enabled="true">
+    <div data-role="rangeslider">
+      <label for="range-1a">Age:</label>
+      <input type="range" name="range-1a" id="range-1a" min="0" max="20" value="0" data-popup-enabled="true">
+      <label for="range-1b">Age:</label>
+      <input type="range" name="range-1b" id="range-1b" min="0" max="20" value="5" data-popup-enabled="true">
+    </div>
+    <div data-role="rangeslider">
+      <label for="range-1a">Milage:</label>
+      <input type="range" name="range-1c" id="range-1c" min="0" max="100000" value="0" step="1000" data-popup-enabled="true">
+      <label for="range-1b">Milage:</label>
+      <input type="range" name="range-1d" id="range-1d" min="0" max="100000" value="50000" step="1000" data-popup-enabled="true">
+    </div>
+    <div class="full-width-section">
+      <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+        <legend>Fuel type:</legend>
+        <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6a" value="on" checked="checked">
+        <label for="radio-choice-h-6a">Any</label>
+        <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6b" value="off">
+        <label for="radio-choice-h-6b">Petrol</label>
+        <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6c" value="other">
+        <label for="radio-choice-h-6c">Diesel</label>
+        <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6d" value="other">
+        <label for="radio-choice-h-6d">...</label>
+      </fieldset>
+    </div>
+    <div class="full-width-section">
+      <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+        <legend>Transmission:</legend>
+        <input type="radio" name="radio-choice-h-7" id="radio-choice-h-7a" value="on" checked="checked">
+        <label for="radio-choice-h-7a">Any</label>
+        <input type="radio" name="radio-choice-h-7" id="radio-choice-h-7b" value="off">
+        <label for="radio-choice-h-7b">Manual</label>
+        <input type="radio" name="radio-choice-h-7" id="radio-choice-h-7c" value="other">
+        <label for="radio-choice-h-7c">Automatic</label>
+      </fieldset>
+    </div>
+  </form>
+  <input type="number" class="test" pattern="[0-9]+([\.,][0-9]+)?" value="1000">
+  <p>
+  <span class="test">1025.8702</span>
+  <span class="number">18023</span>
+  <span class="number">982.3</span>
+  <span class="number">.346323</span>
+</p>
+  <script>
+    $(function() {
+      $('span.number').number( true, 2 )
+      $('input.number').number( true, 2 );
+      $('.test').number( 1234, 2 );
+    });
+  </script>
 </body>
 </html>
