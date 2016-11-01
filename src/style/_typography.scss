@@ -3,8 +3,9 @@ body, html {
 	font: $typeDefault $fontBody;
 
 	a {
-		color: $linkNormal;
+		color: $link-normal;
 		text-decoration: underline;
+		font-weight: normal!important;
 	}
 
 	a:active {
