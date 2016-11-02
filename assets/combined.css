@@ -5319,6 +5319,7 @@ body, html {
   background: white;
   height: 100%;
   margin: 0;
+  text-shadow: none !important;
 }
 
 .full-width-section {
@@ -5379,7 +5380,8 @@ label, legend {
 
 h1 {
   margin-top: 75px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .labels {
@@ -5388,6 +5390,7 @@ h1 {
   text-align: justify;
   color: #a0a0a0;
   margin-top: -4px;
+  font-weight: normal;
 }
 
 .label-right {
@@ -5415,6 +5418,7 @@ h1 {
   text-align: center;
   top: 0;
   right: 45px;
+  font-weight: normal;
 }
 
 .age .dash {
@@ -5478,7 +5482,7 @@ h1 {
   text-shadow: none;
   text-align: center;
   position: fixed;
-  bottom: 15px;
+  bottom: 20px;
   text-decoration: none;
   margin-left: auto;
   margin-right: auto;
@@ -5510,6 +5514,10 @@ h1 {
 
 .noscroll {
   overflow: hidden;
+}
+
+.ui-shadow-inset {
+  box-shadow: none;
 }
 
 body, html {
