@@ -40,7 +40,7 @@ label, legend {
   display: block;
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   width: 100%;
   background: #fff;
   box-shadow: 0 2px 5px rgba(0,0,0,.26);
@@ -52,7 +52,7 @@ label, legend {
   float: left;
 }
 
-.icn-search img {
+.icn-search img, .close {
   float: right;
 }
 
@@ -100,7 +100,7 @@ h1 {
   display: block;
   position: absolute;
   text-align: center;
-  top: 0;
+  top: -1px;
   right: 45px;
   font-weight: normal;
 }
@@ -157,6 +157,7 @@ h1 {
   // left: 0;
   // right: 0;
   overflow: scroll;
+  z-index: 2;
 }
 
 .filters {
@@ -213,4 +214,25 @@ h1 {
 
 .ui-shadow-inset {
   box-shadow: none;
+}
+
+#spinner {
+  position: fixed;
+  max-width: 30%;
+  top: 40%;
+  left: 35%;
+  z-index: 0;
+}
+
+#listings {
+  z-index: 1;
+  position: relative;
+}
+
+#theButton {
+  z-index: 2;
+}
+
+.ui-overlay-a, .ui-page-theme-a {
+  background: white;
 }

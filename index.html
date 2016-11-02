@@ -51,12 +51,14 @@
       <img src="assets/images/icn-search.png" alt="search" width="30">
     </div>
   </div>
+  <img src="assets/images/spinner.gif" alt="" id="spinner">
   <div class="listings">
-    <img src="assets/images/ford-focus-listings.jpg" alt="">
+    <img src="assets/images/ford-focus-listings.jpg" alt="" id="listings">
   </div>
   <div class="filters-wrapper hide">
     <div class="filters">
       <div class="full-width-section">
+        <img src="assets/images/close.png" alt="close" width="16" class="close">
         <h1>Refining 230 Ford Focus cars</h1>
       </div>
       <form>
@@ -163,7 +165,16 @@
         $('#theButton').empty().append('Filters');
         $('body').removeClass('noscroll');
         flip = 0;
+        window.scrollTo(0,0);
+        $('#listings').fadeOut(300).delay(1000).fadeIn(300);
       }
+    });
+    $('.close').on('click', function(){
+      $('.filters-wrapper').removeClass('fadeInUp').addClass('fadeOutDown');
+      $('#theButton').removeClass('big-button');
+      $('#theButton').empty().append('Filters');
+      $('body').removeClass('noscroll');
+      flip = 0;
     });
   </script>
 </body>
