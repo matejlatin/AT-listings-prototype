@@ -40,102 +40,104 @@
   <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-  <div class="topnav">
-    <div class="icn-menu">
-      <img src="assets/images/icn-menu.png" alt="menu" width="30">
-    </div>
-    <div class="logo">
-      <img src="assets/images/autotrader_logo.png" alt="AutoTrader" width="140">
-    </div>
-    <div class="icn-search">
-      <img src="assets/images/icn-search.png" alt="search" width="30">
-    </div>
-  </div>
-  <img src="assets/images/spinner.gif" alt="" id="spinner">
-  <div class="listings">
-    <img src="assets/images/ford-focus-listings.jpg" alt="" id="listings">
-  </div>
-  <div class="filters-wrapper hide">
-    <div class="filters">
-      <div class="full-width-section">
-        <img src="assets/images/close.png" alt="close" width="16" class="close">
-        <h1>Refining 230 Ford Focus cars</h1>
+  <div class="wrapper">
+    <div class="topnav">
+      <div class="icn-menu">
+        <img src="assets/images/icn-menu.png" alt="menu" width="30">
       </div>
-      <form>
-        <div class="full-width-section pb">
-          <div class="pr">
-            <span class="dash">-</span>
-            <div data-role="rangeslider">
-              <label for="range-1a" class="mt">Price:</label>
-              <input type="range" name="range-1a" id="range-1a" min="0" max="14000" value="100" step="500" data-popup-enabled="true">
-              <label for="range-1b" class="mt">Price:</label>
-              <input type="range" name="range-1b" id="range-1b" min="0" max="14000" value="7000" step="500" data-popup-enabled="true">
-            </div>
-          </div>
-          <div class="labels cf">
-            <span class="label-left">£0</span><span class="label-center">£7,000</span><span class="label-right">£14,000</span>
-          </div>
-          <div class="pr">
-            <span class="dash">-</span>
-            <div data-role="rangeslider">
-              <label for="range-1a" class="mt">Milage:</label>
-              <input type="range" name="range-1c" id="range-1c" min="0" max="100000" value="0" step="1000" data-popup-enabled="true">
-              <label for="range-1b" class="mt">Milage:</label>
-              <input type="range" name="range-1d" id="range-1d" min="0" max="100000" value="50000" step="1000" data-popup-enabled="true">
-            </div>
-          </div>
-          <div class="labels cf">
-            <span class="label-left">0</span><span class="label-center">50,000</span><span class="label-right">100,000+</span>
-          </div>
-          <div class="pr age">
-            <span class="dash">-</span>
-            <div data-role="rangeslider">
-              <label for="range-1a" class="mt">Age:</label>
-              <input type="range" name="range-1a" id="range-1a" min="0" max="20" value="0" data-popup-enabled="true">
-              <label for="range-1b" class="mt">Age:</label>
-              <input type="range" name="range-1b" id="range-1b" min="0" max="20" value="5" data-popup-enabled="true">
-            </div>
-          </div>
-          <div class="labels cf">
-            <span class="label-left">0</span><span class="label-center">10</span><span class="label-right">20+</span>
-          </div>
-          <div class="pr">
-            <label for="slider-2" class="mt">Distance (miles):</label>
-            <input type="range" name="slider-2" id="slider-2" data-highlight="true" min="0" max="200" value="100" step="5" data-popup-enabled="true">
-          </div>
-          <div class="labels cf">
-            <span class="label-left">0</span><span class="label-center">100</span><span class="label-right">200+</span>
-          </div>
-        </div>
-        <div class="full-width-section">
-          <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
-            <legend>Fuel type:</legend>
-            <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6a" value="on" checked="checked">
-            <label for="radio-choice-h-6a">Any</label>
-            <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6b" value="off">
-            <label for="radio-choice-h-6b">Petrol</label>
-            <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6c" value="other">
-            <label for="radio-choice-h-6c">Diesel</label>
-            <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6d" value="other">
-            <label for="radio-choice-h-6d">…</label>
-          </fieldset>
-        </div>
-        <div class="full-width-section">
-          <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
-            <legend>Transmission:</legend>
-            <input type="radio" name="radio-choice-h-7" id="radio-choice-h-7a" value="on" checked="checked">
-            <label for="radio-choice-h-7a">Any</label>
-            <input type="radio" name="radio-choice-h-7" id="radio-choice-h-7b" value="off">
-            <label for="radio-choice-h-7b">Manual</label>
-            <input type="radio" name="radio-choice-h-7" id="radio-choice-h-7c" value="other">
-            <label for="radio-choice-h-7c">Automatic</label>
-          </fieldset>
-        </div>
-      </form>
-      <a href="#" class="alignCenter more-filters">More filters</a>
+      <div class="logo">
+        <img src="assets/images/autotrader_logo.png" alt="AutoTrader" width="140">
+      </div>
+      <div class="icn-search">
+        <img src="assets/images/icn-search.png" alt="search" width="30">
+      </div>
     </div>
+    <img src="assets/images/spinner.gif" alt="" id="spinner">
+    <div class="listings">
+      <img src="assets/images/ford-focus-listings.jpg" alt="" id="listings">
+    </div>
+    <div class="filters-wrapper hide">
+      <div class="filters">
+        <div class="full-width-section">
+          <img src="assets/images/close.png" alt="close" width="16" class="close">
+          <h1>Refining 230 Ford Focus cars</h1>
+        </div>
+        <form>
+          <div class="full-width-section pb">
+            <div class="pr">
+              <span class="dash">-</span>
+              <div data-role="rangeslider">
+                <label for="range-1a" class="mt">Price:</label>
+                <input type="range" name="range-1a" id="range-1a" min="0" max="14000" value="100" step="500" data-popup-enabled="true">
+                <label for="range-1b" class="mt">Price:</label>
+                <input type="range" name="range-1b" id="range-1b" min="0" max="14000" value="7000" step="500" data-popup-enabled="true">
+              </div>
+            </div>
+            <div class="labels cf">
+              <span class="label-left">£0</span><span class="label-center">£7,000</span><span class="label-right">£14,000</span>
+            </div>
+            <div class="pr">
+              <span class="dash">-</span>
+              <div data-role="rangeslider">
+                <label for="range-1a" class="mt">Milage:</label>
+                <input type="range" name="range-1c" id="range-1c" min="0" max="100000" value="0" step="1000" data-popup-enabled="true">
+                <label for="range-1b" class="mt">Milage:</label>
+                <input type="range" name="range-1d" id="range-1d" min="0" max="100000" value="50000" step="1000" data-popup-enabled="true">
+              </div>
+            </div>
+            <div class="labels cf">
+              <span class="label-left">0</span><span class="label-center">50,000</span><span class="label-right">100,000+</span>
+            </div>
+            <div class="pr age">
+              <span class="dash">-</span>
+              <div data-role="rangeslider">
+                <label for="range-1a" class="mt">Age:</label>
+                <input type="range" name="range-1a" id="range-1a" min="0" max="20" value="0" data-popup-enabled="true">
+                <label for="range-1b" class="mt">Age:</label>
+                <input type="range" name="range-1b" id="range-1b" min="0" max="20" value="5" data-popup-enabled="true">
+              </div>
+            </div>
+            <div class="labels cf">
+              <span class="label-left">0</span><span class="label-center">10</span><span class="label-right">20+</span>
+            </div>
+            <div class="pr">
+              <label for="slider-2" class="mt">Distance (miles):</label>
+              <input type="range" name="slider-2" id="slider-2" data-highlight="true" min="0" max="200" value="100" step="5" data-popup-enabled="true">
+            </div>
+            <div class="labels cf">
+              <span class="label-left">0</span><span class="label-center">100</span><span class="label-right">200+</span>
+            </div>
+          </div>
+          <div class="full-width-section">
+            <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+              <legend>Fuel type:</legend>
+              <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6a" value="on" checked="checked">
+              <label for="radio-choice-h-6a">Any</label>
+              <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6b" value="off">
+              <label for="radio-choice-h-6b">Petrol</label>
+              <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6c" value="other">
+              <label for="radio-choice-h-6c">Diesel</label>
+              <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6d" value="other">
+              <label for="radio-choice-h-6d">…</label>
+            </fieldset>
+          </div>
+          <div class="full-width-section">
+            <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+              <legend>Transmission:</legend>
+              <input type="radio" name="radio-choice-h-7" id="radio-choice-h-7a" value="on" checked="checked">
+              <label for="radio-choice-h-7a">Any</label>
+              <input type="radio" name="radio-choice-h-7" id="radio-choice-h-7b" value="off">
+              <label for="radio-choice-h-7b">Manual</label>
+              <input type="radio" name="radio-choice-h-7" id="radio-choice-h-7c" value="other">
+              <label for="radio-choice-h-7c">Automatic</label>
+            </fieldset>
+          </div>
+        </form>
+        <a href="#" class="alignCenter more-filters">More filters</a>
+      </div>
+    </div>
+    <a href="#" id="theButton" class="button">Filters</a>
   </div>
-  <a href="#" id="theButton" class="button">Filters</a>
   <!-- <input type="number" class="test" pattern="[0-9]+([\.,][0-9]+)?" value="1000">
   <p>
     <span class="test">1025.8702</span>
@@ -152,18 +154,25 @@
   </script> -->
   <script>
     var flip = 0;
+    // var st;
+    // console.log(st);
+
+    // $(document).scroll(function(){
+    //   st = $(this).scrollTop();
+    //   console.log(st);
+    // });
     $('#theButton').on('click', function(){
       if (flip == 0){
-        $('.filters-wrapper').removeClass('hide fadeOutDown').addClass('animated fadeInUp');
+        $('.filters-wrapper').removeClass('hide fadeOutDown').addClass('animated fadeInUp').scrollTop(0);
         $('#theButton').addClass('big-button');
         $('#theButton').empty().append('Refine search');
-        $('body').addClass('noscroll');
+        $('.wrapper').addClass('noscroll');
         flip = 1;
       } else if (flip == 1) {
         $('.filters-wrapper').removeClass('fadeInUp').addClass('fadeOutDown');
         $('#theButton').removeClass('big-button');
         $('#theButton').empty().append('Filters');
-        $('body').removeClass('noscroll');
+        $('.wrapper').removeClass('noscroll');
         flip = 0;
         window.scrollTo(0,0);
         $('#listings').fadeOut(300).delay(1000).fadeIn(300);
@@ -173,7 +182,7 @@
       $('.filters-wrapper').removeClass('fadeInUp').addClass('fadeOutDown');
       $('#theButton').removeClass('big-button');
       $('#theButton').empty().append('Filters');
-      $('body').removeClass('noscroll');
+      $('.wrapper').removeClass('noscroll');
       flip = 0;
     });
   </script>

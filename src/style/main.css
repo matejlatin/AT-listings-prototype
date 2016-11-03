@@ -748,6 +748,7 @@ h1 {
   top: 0;
   bottom: 0;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   z-index: 2;
 }
 
@@ -794,6 +795,8 @@ h1 {
 
 .noscroll {
   overflow: hidden;
+  position: fixed;
+  height: 100%;
 }
 
 .ui-shadow-inset {
