@@ -40,7 +40,7 @@
   <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-  <div class="wrapper">
+  <div class="wrapper" id="fixed">
     <div class="topnav">
       <div class="icn-menu">
         <img src="assets/images/icn-menu.png" alt="menu" width="30">
@@ -53,7 +53,7 @@
       </div>
     </div>
     <img src="assets/images/spinner.gif" alt="" id="spinner">
-    <div class="listings" id="fixed">
+    <div class="listings">
       <img src="assets/images/ford-focus-listings.jpg" alt="" id="listings">
     </div>
     <div class="filters-wrapper hide">
@@ -138,66 +138,38 @@
     </div>
     <a href="#" id="theButton" class="button">Filters</a>
   </div>
-  <!-- <input type="number" class="test" pattern="[0-9]+([\.,][0-9]+)?" value="1000">
-  <p>
-    <span class="test">1025.8702</span>
-    <span class="number">18023</span>
-    <span class="number">982.3</span>
-    <span class="number">.346323</span>
-  </p>
-  <script>
-    $(function() {
-      $('span.number').number( true, 2 )
-      $('input.number').number( true, 2 );
-      $('.test').number( 1234, 2 );
-    });
-  </script> -->
   <script>
     var flip = 0;
-    // var st;
-    // console.log(st);
+    var st = 0;
+    var lastScroll;
+    $(document).scroll(function(){
+      st = $(this).scrollTop();
+    });
 
-    // $(document).scroll(function(){
-    //   st = $(this).scrollTop();
-    //   console.log(st);
-    // });
-    var fixed = document.getElementById('fixed');
     $('#theButton').on('click', function(){
       if (flip == 0){
         $('.filters-wrapper').removeClass('hide fadeOutDown').addClass('animated fadeInUp').scrollTop(0);
         $('#theButton').addClass('big-button');
         $('#theButton').empty().append('Refine search');
-        // $('.wrapper').addClass('noscroll');
-        $('#fixed').bind('touchmove', function(e){
-          e.preventDefault();
-        });
-        // fixed.addEventListener('touchmove', function(e) {
-        //   e.preventDefault();
-        // }, false);
+        lastScroll = st;
+        $('.wrapper').addClass('noscroll').css('top', -st + 'px');
         flip = 1;
       } else if (flip == 1) {
         $('.filters-wrapper').removeClass('fadeInUp').addClass('fadeOutDown');
         $('#theButton').removeClass('big-button');
         $('#theButton').empty().append('Filters');
-        // $('.wrapper').removeClass('noscroll');
-        $('#fixed').unbind();
-        // fixed.addEventListener('touchmove', function(e) {
-        //   return true;
-        // }, false);
+        $('.wrapper').removeClass('noscroll');
         flip = 0;
         window.scrollTo(0,0);
-        $('#listings').fadeOut(300).delay(1000).fadeIn(300);
+        $('#listings').hide().delay(1300).fadeIn(300);
       }
     });
     $('.close').on('click', function(){
       $('.filters-wrapper').removeClass('fadeInUp').addClass('fadeOutDown');
       $('#theButton').removeClass('big-button');
       $('#theButton').empty().append('Filters');
-      // $('.wrapper').removeClass('noscroll');
-      $('#fixed').unbind();
-      // fixed.addEventListener('touchmove', function(e) {
-      //     return true;
-      //   }, false);
+      $('.wrapper').removeClass('noscroll');
+      $('body').scrollTop(lastScroll);
       flip = 0;
     });
   </script>

@@ -5517,7 +5517,6 @@ h1 {
 .noscroll {
   overflow: hidden;
   position: fixed;
-  height: 100%;
 }
 
 .ui-shadow-inset {
