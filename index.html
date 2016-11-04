@@ -53,7 +53,7 @@
       </div>
     </div>
     <img src="assets/images/spinner.gif" alt="" id="spinner">
-    <div class="listings">
+    <div class="listings" id="fixed">
       <img src="assets/images/ford-focus-listings.jpg" alt="" id="listings">
     </div>
     <div class="filters-wrapper hide">
@@ -161,18 +161,29 @@
     //   st = $(this).scrollTop();
     //   console.log(st);
     // });
+    var fixed = document.getElementById('fixed');
     $('#theButton').on('click', function(){
       if (flip == 0){
         $('.filters-wrapper').removeClass('hide fadeOutDown').addClass('animated fadeInUp').scrollTop(0);
         $('#theButton').addClass('big-button');
         $('#theButton').empty().append('Refine search');
-        $('.wrapper').addClass('noscroll');
+        // $('.wrapper').addClass('noscroll');
+        $('#fixed').bind('touchmove', function(e){
+          e.preventDefault();
+        });
+        // fixed.addEventListener('touchmove', function(e) {
+        //   e.preventDefault();
+        // }, false);
         flip = 1;
       } else if (flip == 1) {
         $('.filters-wrapper').removeClass('fadeInUp').addClass('fadeOutDown');
         $('#theButton').removeClass('big-button');
         $('#theButton').empty().append('Filters');
-        $('.wrapper').removeClass('noscroll');
+        // $('.wrapper').removeClass('noscroll');
+        $('#fixed').unbind();
+        // fixed.addEventListener('touchmove', function(e) {
+        //   return true;
+        // }, false);
         flip = 0;
         window.scrollTo(0,0);
         $('#listings').fadeOut(300).delay(1000).fadeIn(300);
@@ -182,7 +193,11 @@
       $('.filters-wrapper').removeClass('fadeInUp').addClass('fadeOutDown');
       $('#theButton').removeClass('big-button');
       $('#theButton').empty().append('Filters');
-      $('.wrapper').removeClass('noscroll');
+      // $('.wrapper').removeClass('noscroll');
+      $('#fixed').unbind();
+      // fixed.addEventListener('touchmove', function(e) {
+      //     return true;
+      //   }, false);
       flip = 0;
     });
   </script>
