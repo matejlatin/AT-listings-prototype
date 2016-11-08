@@ -235,3 +235,18 @@ h1 {
 .ui-overlay-a, .ui-page-theme-a {
   background: white;
 }
+
+.new-search {
+  // display: none;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+}
+
+.extra-padding {
+  padding: 15px;
+}
+
+.chevron {
+  margin-left: 10px;
+}

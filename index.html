@@ -8,36 +8,6 @@
   <link rel="stylesheet" href="assets/combined.min.css">
   <script src="assets/combined.min.js"></script>
   <script type="text/javascript" src="//use.typekit.net/odo6ird.js"></script>
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/android-chrome-manifest.json">
-  <meta name="msapplication-TileColor" content="#e74444">
-  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  <meta property="og:title" content="Title">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="http://website.com/">
-  <meta property="og:image" content="http://website.com/image.jpg" />
-  <meta property="og:description" content="Description" />
-  <meta name="twitter:creator" content="@twiteruser">
-  <meta name="twitter:site" content="@twitteruser2">
-  <meta name="twitter:description" content="Twitter description." />
-  <meta name="twitter:url" content="http://website.com/" />
-  <meta name="twitter:domain" content="website.com" />
-  <meta name="twitter:image:src" content="http://website.com/image.jpg" />
-  <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
   <div class="wrapper" id="fixed">
@@ -109,7 +79,7 @@
             </div>
           </div>
           <div class="full-width-section">
-            <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+            <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true" id="fuelRadio">
               <legend>Fuel type:</legend>
               <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6a" value="on" checked="checked">
               <label for="radio-choice-h-6a">Any</label>
@@ -119,6 +89,15 @@
               <label for="radio-choice-h-6c">Diesel</label>
               <input type="radio" name="radio-choice-h-6" id="radio-choice-h-6d" value="other">
               <label for="radio-choice-h-6d">…</label>
+            </fieldset>
+            <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true" class="hide additional-fuel">
+              <!-- <legend>Fuel type:</legend> -->
+              <input type="radio" name="radio-choice-h-6b" id="radio-choice-h-6ab" value="on" checked="checked">
+              <label for="radio-choice-h-6ab">Electric</label>
+              <input type="radio" name="radio-choice-h-6b" id="radio-choice-h-6bb" value="off">
+              <label for="radio-choice-h-6bb">Hybrid</label>
+              <input type="radio" name="radio-choice-h-6b" id="radio-choice-h-6cb" value="other">
+              <label for="radio-choice-h-6cb">Unlisted</label>
             </fieldset>
           </div>
           <div class="full-width-section">
@@ -132,11 +111,46 @@
               <label for="radio-choice-h-7c">Automatic</label>
             </fieldset>
           </div>
+          <div class="full-width-section">
+            <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+              <legend>Doors:</legend>
+              <input type="radio" name="radio-choice-h-8" id="radio-choice-h-8a" value="on" checked="checked">
+              <label for="radio-choice-h-8a">Any</label>
+              <input type="radio" name="radio-choice-h-8" id="radio-choice-h-8b" value="off">
+              <label for="radio-choice-h-8b">2</label>
+              <input type="radio" name="radio-choice-h-8" id="radio-choice-h-8c" value="other">
+              <label for="radio-choice-h-8c">3</label>
+              <input type="radio" name="radio-choice-h-8" id="radio-choice-h-8d" value="other">
+              <label for="radio-choice-h-8d">4</label>
+              <input type="radio" name="radio-choice-h-8" id="radio-choice-h-8e" value="other">
+              <label for="radio-choice-h-8e">5</label>
+            </fieldset>
+          </div>
+          <div class="full-width-section">
+            <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+              <legend>Seller type:</legend>
+              <input type="radio" name="radio-choice-h-9" id="radio-choice-h-9a" value="on" checked="checked">
+              <label for="radio-choice-h-9a">Any</label>
+              <input type="radio" name="radio-choice-h-9" id="radio-choice-h-9b" value="off">
+              <label for="radio-choice-h-9b">Private</label>
+              <input type="radio" name="radio-choice-h-9" id="radio-choice-h-9c" value="other">
+              <label for="radio-choice-h-9c">Trade</label>
+            </fieldset>
+          </div>
+          <div class="full-width-section extra-padding">
+            <img src="assets/images/chevron-right.png" alt="right" class="floatRight chevron" width="10"><b>Body type</b><span class="floatRight">Any</span>
+          </div>
+          <div class="full-width-section extra-padding">
+            <img src="assets/images/chevron-right.png" alt="right" class="floatRight chevron" width="10"><b>Colour</b><span class="floatRight">Any</span>
+          </div>
         </form>
         <a href="#" class="alignCenter more-filters">More filters</a>
       </div>
     </div>
     <a href="#" id="theButton" class="button">Filters</a>
+  </div>
+  <div class="new-search hide">
+    <img src="assets/images/new-search.jpg" alt="new search" width="375">
   </div>
   <script>
     var flip = 0;
@@ -171,6 +185,19 @@
       $('.wrapper').removeClass('noscroll');
       $('body').scrollTop(lastScroll);
       flip = 0;
+    });
+    $('.icn-search img').on('click', function(){
+      $('.new-search').removeClass('hide fadeOutRight').addClass('animated fadeInRight');
+    });
+    $('.new-search').on('click', function(){
+      $(this).removeClass('fadeInRight').addClass('fadeOutRight');
+    });
+    $('#fuelRadio input[type=radio]').on('click', function(){
+      if ($('#radio-choice-h-6d').is(':checked')){
+        $('.additional-fuel').fadeIn(200);
+      } else {
+        $('.additional-fuel').fadeOut(200);
+      }
     });
   </script>
 </body>
