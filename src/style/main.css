@@ -883,6 +883,9 @@ h1 {
   position: fixed;
   top: 0;
 }
+.new-search img {
+  width: 100%;
+}
 
 .extra-padding {
   padding: 15px;
