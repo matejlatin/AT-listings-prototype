@@ -147,7 +147,9 @@
         <a href="#" class="alignCenter more-filters">More filters</a>
       </div>
     </div>
-    <a href="#" id="theButton" class="button">Filters</a>
+    <div class="the-button-wrapper hide">
+      <a href="#" id="theButton" class="button">Refine search</a>
+    </div>
   </div>
   <div class="new-search hide">
     <img src="assets/images/new-search.jpg" alt="new search" width="375">
@@ -160,11 +162,17 @@
       st = $(this).scrollTop();
     });
 
+    $(document).ready(function(){
+      setTimeout(function(){
+        $('.the-button-wrapper').removeClass('hide').addClass('animated fadeInUp');
+      }, 1000);
+    })
+
     $('#theButton').on('click', function(){
       if (flip == 0){
         $('.filters-wrapper').removeClass('hide fadeOutDown').addClass('animated fadeInUp').scrollTop(0);
         $('#theButton').addClass('big-button');
-        $('#theButton').empty().append('Refine search');
+        $('#theButton').empty().append('Update results');
         lastScroll = st;
         $('.wrapper').addClass('noscroll').css('top', -st + 'px');
         $( "input[type=number]" ).prop( "readonly", true );
@@ -172,7 +180,7 @@
       } else if (flip == 1) {
         $('.filters-wrapper').removeClass('fadeInUp').addClass('fadeOutDown');
         $('#theButton').removeClass('big-button');
-        $('#theButton').empty().append('Filters');
+        $('#theButton').empty().append('Refine search');
         $('.wrapper').removeClass('noscroll');
         flip = 0;
         window.scrollTo(0,0);
@@ -182,7 +190,7 @@
     $('.close').on('click', function(){
       $('.filters-wrapper').removeClass('fadeInUp').addClass('fadeOutDown');
       $('#theButton').removeClass('big-button');
-      $('#theButton').empty().append('Filters');
+      $('#theButton').empty().append('Refine search');
       $('.wrapper').removeClass('noscroll');
       $('body').scrollTop(lastScroll);
       flip = 0;

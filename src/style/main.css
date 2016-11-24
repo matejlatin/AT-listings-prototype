@@ -817,23 +817,26 @@ h1 {
   color: white !important;
   text-shadow: none;
   text-align: center;
-  position: fixed;
-  bottom: 20px;
   text-decoration: none;
   margin-left: auto;
   margin-right: auto;
-  width: 120px;
+  width: 150px;
   max-width: 80%;
   font-size: 18px;
   font-weight: bold !important;
   padding: 12px;
   border-radius: 25px;
-  left: 50%;
-  transform: translateX(-50%);
   transition: all 0.3s;
 }
 .button:active {
   background: #507C29;
+}
+
+.the-button-wrapper {
+  bottom: 20px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
 }
 
 .big-button {
@@ -868,10 +871,6 @@ h1 {
 #listings {
   z-index: 1;
   position: relative;
-}
-
-#theButton {
-  z-index: 2;
 }
 
 .ui-overlay-a, .ui-page-theme-a {
