@@ -811,6 +811,10 @@ h1 {
   display: none;
 }
 
+.hide2 {
+  opacity: 0;
+}
+
 .button {
   background: #689F38;
   display: block;

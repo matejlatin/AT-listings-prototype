@@ -166,6 +166,10 @@ h1 {
   display: none;
 }
 
+.hide2 {
+  opacity: 0;
+}
+
 .button {
   background: $button;
   display: block;
@@ -186,8 +190,6 @@ h1 {
   // left: 50%;
   // transform: translateX(-50%);
   transition: all 0.3s;
-  // margin-left: auto;
-  // margin-right: auto;
 
   &:active {
     background: $button-active;
