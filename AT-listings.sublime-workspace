@@ -3,6 +3,14 @@
 	{
 		"selected_items":
 		[
+			[
+				"img",
+				"img	HTML/Element"
+			],
+			[
+				"im",
+				"img	HTML/Element"
+			]
 		]
 	},
 	"buffers":
@@ -11,8 +19,57 @@
 			"file": "Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 2406,
+				"buffer_size": 2815,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10766,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/style/jquery.mobile-1.4.5.css",
+			"settings":
+			{
+				"buffer_size": 239546,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/style/main.scss",
+			"settings":
+			{
+				"buffer_size": 97,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/style/_style.scss",
+			"settings":
+			{
+				"buffer_size": 3674,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/style/_modular.scss",
+			"settings":
+			{
+				"buffer_size": 1686,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/* Negative letter-spac: */\nfont-family: AcuminPro-Bold;\nfont-size: 48px;\ncolor: #202020;\nletter-spacing: -1px;\nline-height: 43px;",
+			"settings":
+			{
+				"buffer_size": 130,
+				"line_ending": "Unix",
+				"name": "/* Negative letter-spac: */"
 			}
 		}
 	],
@@ -105,10 +162,14 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/matej.latin/Projects/Search/Listings/listings-prototype"
+		"/Users/matej.latin/Git/AT-listings-prototype",
+		"/Users/matej.latin/Git/AT-listings-prototype/src",
+		"/Users/matej.latin/Git/AT-listings-prototype/src/style"
 	],
 	"file_history":
 	[
+		"/Users/matej.latin/Git/AT-listings-prototype/src/style/main.css",
+		"/Users/matej.latin/Git/AT-listings-prototype/src/style/main.scss",
 		"/Users/matej.latin/Personal/Gutenberg/index.html",
 		"/Users/matej.latin/Personal/Gutenberg/src/style/modules/_text.scss",
 		"/Users/matej.latin/Personal/Gutenberg/README.md",
@@ -140,7 +201,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -156,6 +217,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"button",
+			"rangeslider",
+			"jquery",
 			"'",
 			"toggleWrapper",
 			"float",
@@ -178,7 +242,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -187,27 +251,202 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2406,
+						"buffer_size": 2815,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								412,
-								418
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10766,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								869,
+								869
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/style/jquery.mobile-1.4.5.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 239546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220536,
+								220536
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 70000.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/style/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 97,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/style/_style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2368,
+								2374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2395.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/style/_modular.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								451,
+								451
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/Sass.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/* Negative letter-spac: */",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -261,6 +500,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"jquery",
+				"src/style/jquery.mobile-1.4.5.css"
+			],
+			[
+				"main",
+				"src/style/main.scss"
+			],
+			[
+				"inde",
+				"index.html"
+			],
 			[
 				"gruntf",
 				"Gruntfile.js"

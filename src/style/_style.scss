@@ -1,5 +1,35 @@
+@font-face {
+    font-family: 'fab';
+    src: url('fabrigasister-regular-webfont.woff2') format('woff2'),
+         url('fabrigasister-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fab-light';
+    src: url('fabrigasisterlight-regular-webfont.woff2') format('woff2'),
+         url('fabrigasisterlight-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fab-medium';
+    src: url('fabrigasistermedium-regular-webfont.woff2') format('woff2'),
+         url('fabrigasistermedium-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$at-colour-blue-light: #288AE2;
+
 body, html {
-	background: white;
+	font-family: "fab", Helvetica, Arial, sans-serif;
+  background: white;
 	height: 100%;
 	margin: 0;
   text-shadow: none!important;
@@ -267,4 +297,12 @@ h1 {
 
 .chevron {
   margin-left: 10px;
+}
+
+.ui-btn, label.ui-btn {
+  font-weight: normal!important;
+}
+
+.ui-btn, body, button, input, select, textarea {
+  font-family: "fab", Helvetica, sans-serif;
 }

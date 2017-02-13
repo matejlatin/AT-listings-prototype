@@ -648,7 +648,26 @@ Copyright (c) 2014 Daniel Eden
   animation-name: fadeOutRight;
 }
 
+@font-face {
+  font-family: 'fab';
+  src: url("fabrigasister-regular-webfont.woff2") format("woff2"), url("fabrigasister-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fab-light';
+  src: url("fabrigasisterlight-regular-webfont.woff2") format("woff2"), url("fabrigasisterlight-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fab-medium';
+  src: url("fabrigasistermedium-regular-webfont.woff2") format("woff2"), url("fabrigasistermedium-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 body, html {
+  font-family: "fab", Helvetica, Arial, sans-serif;
   background: white;
   height: 100%;
   margin: 0;
@@ -898,9 +917,17 @@ h1 {
   margin-left: 10px;
 }
 
+.ui-btn, label.ui-btn {
+  font-weight: normal !important;
+}
+
+.ui-btn, body, button, input, select, textarea {
+  font-family: "fab", Helvetica, sans-serif;
+}
+
 body, html {
   color: #343434;
-  font: 100% "open-sans", Helvetica, Sans-serif;
+  font: 100% "fab", Helvetica, Sans-serif;
 }
 body a, html a {
   color: #267EC8;
