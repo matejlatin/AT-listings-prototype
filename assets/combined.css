@@ -5395,6 +5395,10 @@ body, html {
   text-shadow: none !important;
 }
 
+.ui-overlay-a, .ui-page-theme-a {
+  background: #F5F5F5 !important;
+}
+
 .full-width-section {
   border-bottom: 1px solid #E4E2E2;
   padding: 0 15px;
