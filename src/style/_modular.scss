@@ -17,9 +17,9 @@ $buttonNormal:		$colorDark;
 $buttonHover:		$colorMedium;
 $buttonActive:		black;
 
-$button:	#689F38;
-$button-hover:	#689F38;
-$button-active:	#507C29;
+$button:	#FF3734;
+$button-hover:	lighten($button, 10%);
+$button-active:	darken($button, 15%);
 
 // Sizes
 $typeDefault:		100%;		// 16px
