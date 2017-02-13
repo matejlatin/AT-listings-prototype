@@ -668,7 +668,7 @@ Copyright (c) 2014 Daniel Eden
 }
 body, html {
   font-family: "fab", Helvetica, Arial, sans-serif;
-  background: white;
+  background: #F5F5F5;
   height: 100%;
   margin: 0;
   text-shadow: none !important;
